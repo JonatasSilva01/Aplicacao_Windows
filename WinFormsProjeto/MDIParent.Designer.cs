@@ -34,8 +34,9 @@
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.painelDeAdministracaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.importandoDadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +57,7 @@
             this.newToolStripMenuItem,
             this.openToolStripMenuItem,
             this.toolStripSeparator5,
+            this.importandoDadosToolStripMenuItem,
             this.painelDeAdministracaoToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileMenu.ImageTransparentColor = System.Drawing.SystemColors.ActiveBorder;
@@ -88,13 +90,6 @@
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             this.toolStripSeparator5.Size = new System.Drawing.Size(199, 6);
             // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
-            this.exitToolStripMenuItem.Text = "Sai&r";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
-            // 
             // painelDeAdministracaoToolStripMenuItem
             // 
             this.painelDeAdministracaoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("painelDeAdministracaoToolStripMenuItem.Image")));
@@ -102,6 +97,20 @@
             this.painelDeAdministracaoToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
             this.painelDeAdministracaoToolStripMenuItem.Text = "Painel de Administração";
             this.painelDeAdministracaoToolStripMenuItem.Click += new System.EventHandler(this.painelDeAdministracaoToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.exitToolStripMenuItem.Text = "Sai&r";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
+            // 
+            // importandoDadosToolStripMenuItem
+            // 
+            this.importandoDadosToolStripMenuItem.Name = "importandoDadosToolStripMenuItem";
+            this.importandoDadosToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.importandoDadosToolStripMenuItem.Text = "Importando Dados";
+            this.importandoDadosToolStripMenuItem.Click += new System.EventHandler(this.importandoDadosToolStripMenuItem_Click);
             // 
             // MDIParent
             // 
@@ -132,6 +141,7 @@
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem painelDeAdministracaoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem importandoDadosToolStripMenuItem;
     }
 }
 

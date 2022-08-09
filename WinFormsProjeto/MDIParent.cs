@@ -72,5 +72,12 @@ namespace WinFormsProjeto
             form1.MdiParent = this;    
             form1.Show();
         }
+
+        private void importandoDadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form1 = new FrmImportador();
+            form1.MdiParent = this;
+            form1.Show();
+        }
     }
 }

@@ -22,11 +22,19 @@ namespace WinFormsProjeto
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            var Name = txtName.Text;
+            var Name = maskedTextName.Text;
+            var Telefone = maskedTelefone.Text;
+            var Estado = maskedEstado.Text;
+            var Sexo = maskedSexo.Text;
+            var cpf = maskedCPF.Text;
             try
             {
-                int Telefone = int.Parse(txtTelefone.Text);
-                MessageBox.Show($"Nome: {Name} e Telefone: {Telefone}");
+                MessageBox.Show
+                    (Name + "\n" +
+                    Telefone + "\n" +
+                    Estado + "\n" +
+                    Sexo + "\n" +
+                    cpf);
             }
             catch(FormatException err)
             {
